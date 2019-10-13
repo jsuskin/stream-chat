@@ -4,7 +4,12 @@ class MessageBox extends Component {
 
   render() {
     return (
-      <div>MessageBox</div>
+      <div id="message-box">
+        <form>
+          <textarea />
+          <input type="submit" />
+        </form>
+      </div>
     );
   }
 

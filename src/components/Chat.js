@@ -6,9 +6,11 @@ class Chat extends Component {
 
   render() {
     return (
-      <div id="chat">
-        <UserList />
-        <ChatArea />
+      <div id="chat-container">
+        <div id="chat">
+          <UserList />
+          <ChatArea />
+        </div>
       </div>
     );
   }

@@ -6,7 +6,7 @@ class ChatArea extends Component {
 
   render() {
     return (
-      <div>
+      <div id="chat-area">
         <ChatBox />
         <MessageBox />
       </div>

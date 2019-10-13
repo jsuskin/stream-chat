@@ -4,7 +4,7 @@ class ChatBox extends Component {
 
   render() {
     return (
-      <div>ChatBox</div>
+      <div id="chat-box">ChatBox</div>
     );
   }
 
